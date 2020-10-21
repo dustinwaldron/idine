@@ -13,6 +13,11 @@
 		B220A264253FCE680025938F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B220A263253FCE680025938F /* Preview Assets.xcassets */; };
 		B220A26F253FCE680025938F /* idineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A26E253FCE680025938F /* idineTests.swift */; };
 		B220A27A253FCE680025938F /* idineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A279253FCE680025938F /* idineUITests.swift */; };
+		B220A28B253FD5670025938F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A28A253FD5670025938F /* Helper.swift */; };
+		B220A291253FD5E40025938F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A28F253FD5E40025938F /* Order.swift */; };
+		B220A292253FD5E40025938F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A290253FD5E40025938F /* Menu.swift */; };
+		B220A297253FD6380025938F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = B220A296253FD6380025938F /* menu.json */; };
+		B220A29D253FEA6C0025938F /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220A29C253FEA6C0025938F /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		B220A275253FCE680025938F /* idineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B220A279253FCE680025938F /* idineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idineUITests.swift; sourceTree = "<group>"; };
 		B220A27B253FCE680025938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B220A28A253FD5670025938F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
+		B220A28F253FD5E40025938F /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
+		B220A290253FD5E40025938F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		B220A296253FD6380025938F /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
+		B220A29C253FEA6C0025938F /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,13 @@
 		B220A25B253FCE660025938F /* idine */ = {
 			isa = PBXGroup;
 			children = (
+				B220A29B253FEA4F0025938F /* Components */,
+				B220A28A253FD5670025938F /* Helper.swift */,
 				B220A25C253FCE660025938F /* idineApp.swift */,
 				B220A25E253FCE660025938F /* ContentView.swift */,
+				B220A290253FD5E40025938F /* Menu.swift */,
+				B220A28F253FD5E40025938F /* Order.swift */,
+				B220A296253FD6380025938F /* menu.json */,
 				B220A260253FCE680025938F /* Assets.xcassets */,
 				B220A265253FCE680025938F /* Info.plist */,
 				B220A262253FCE680025938F /* Preview Content */,
@@ -128,6 +143,14 @@
 				B220A27B253FCE680025938F /* Info.plist */,
 			);
 			path = idineUITests;
+			sourceTree = "<group>";
+		};
+		B220A29B253FEA4F0025938F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B220A29C253FEA6C0025938F /* ItemRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B220A297253FD6380025938F /* menu.json in Resources */,
 				B220A264253FCE680025938F /* Preview Assets.xcassets in Resources */,
 				B220A261253FCE680025938F /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +285,10 @@
 			files = (
 				B220A25F253FCE660025938F /* ContentView.swift in Sources */,
 				B220A25D253FCE660025938F /* idineApp.swift in Sources */,
+				B220A291253FD5E40025938F /* Order.swift in Sources */,
+				B220A29D253FEA6C0025938F /* ItemRow.swift in Sources */,
+				B220A28B253FD5670025938F /* Helper.swift in Sources */,
+				B220A292253FD5E40025938F /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
